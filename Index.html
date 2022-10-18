@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table,
+    tr,
+    td {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .camera_blue {
+        background: blue;
+    }
+
+    .camera_yellow {
+        background: yellow;
+    }
+</style>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td class="camera_blue" colspan="3">
+                    MY FIRST TABLE
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="camera_blue">
+                    First cell
+                </td>
+                <td class="camera_blue">
+                    Second cell
+                </td>
+                <td class="camera_yellow" rowspan="3">
+                    6 cells merqed together
+                </td>
+            </tr>
+            <tr class="camera_yellow">
+                <td colspan="2">
+                    2 cell merqed into one
+                </td>
+            </tr>
+            <tr class="camera_yellow">
+                <td>
+                    1st cell
+                    <br>
+                    3rd row
+                </td>
+                <td>
+                    2nd cell
+                    <br>
+                    3rd row
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="camera_yellow">
+                <td colspan="3">
+                    Do you like tables?
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
